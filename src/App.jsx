@@ -1,3 +1,27 @@
+import { FcHome } from "react-icons/fc";
+import { FaDev } from "react-icons/fa6";
+import { FaPodcast } from "react-icons/fa6";
+import { LiaVideoSolid } from "react-icons/lia";
+import { TiTags } from "react-icons/ti";
+import { GiDeskLamp } from "react-icons/gi";
+import { GiShoppingBag } from "react-icons/gi";
+import { FaHeart } from "react-icons/fa";
+import { GiTrophyCup } from "react-icons/gi";
+import { PiStarFourBold } from "react-icons/pi";
+import { FaCode } from "react-icons/fa";
+import { MdWifiCalling } from "react-icons/md";
+import { BiLogoPostgresql } from "react-icons/bi";
+import { FaBookOpenReader } from "react-icons/fa6";
+import { GiThink } from "react-icons/gi";
+import { TbThumbUp } from "react-icons/tb";
+import { MdPolicy } from "react-icons/md";
+import { PiEyesDuotone } from "react-icons/pi";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaFacebook } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
+import { FaTwitch } from "react-icons/fa";
+import { FaMastodon } from "react-icons/fa6";
 
 export default function App(){
 
@@ -26,36 +50,50 @@ export default function App(){
                               w-56 hover:bg-sky-600 ">Login</button>
           </div>
         </article>
-        <div className="ml-3 mt-6 rounded-md border border-red-600">
-          <ol className="hover:bg-sky-600">Home</ol>
-          <ol className="hover:bg-sky-600">DEV ++</ol>
-          <ol className="hover:bg-sky-600">Podcast</ol>
-          <ol className="hover:bg-sky-600">Videos</ol>
-          <ol className="hover:bg-sky-600">Tags</ol>
-          <ol className="hover:bg-sky-600">DEV Help</ol>
-          <ol className="hover:bg-sky-600">Forem Shop</ol>
-          <ol className="hover:bg-sky-600">Advertise on DEV</ol>
-          <ol className="hover:bg-sky-600">DEV Challenges</ol>
-          <ol className="hover:bg-sky-600">DEV Showcase</ol>
-          <ol className="hover:bg-sky-600">About</ol>
-          <ol className="hover:bg-sky-600">Contact</ol>
-          <ol className="hover:bg-sky-600">Free Postgres Database</ol>
-          <ol className="hover:bg-sky-600">Guides</ol>
-          <ol className="hover:bg-sky-600">Software comparisons</ol>
+        <div className="ml-3 pl-3 mt-6 rounded-md
+            space-y-2 border border-red-600">
+          <ol className="hover:bg-sky-600 flex flex-rows-1"><FcHome style={{fontSize:"20px",marginRight:"1rem"}} />  Home</ol>
+          <ol className="hover:bg-sky-600 flex flex-rows-1"><FaCode style={{fontSize:"20px",marginRight:"1rem"}} />DEV ++</ol>
+          <ol className="hover:bg-sky-600 flex flex-rows-1 "><FaPodcast style={{fontSize:"20px",marginRight:"1rem"}} />Podcast</ol>
+          <ol className="hover:bg-sky-600 flex flex-rows-1"><LiaVideoSolid style={{fontSize:"20px",marginRight:"1rem"}} />Videos</ol>
+          <ol className="hover:bg-sky-600 flex flex-rows-1"><TiTags style={{fontSize:"20px",marginRight:"1rem"}} />Tags</ol>
+          <ol className="hover:bg-sky-600 flex flex-rows-1"><GiDeskLamp style={{fontSize:"20px",marginRight:"1rem"}} />DEV Help</ol>
+          <ol className="hover:bg-sky-600 flex flex-rows-1"><GiShoppingBag style={{fontSize:"20px",marginRight:"1rem"}} />Forem Shop</ol>
+          <ol className="hover:bg-sky-600 flex flex-rows-1"><FaHeart style={{fontSize:"20px",marginRight:"1rem"}} />Advertise on DEV</ol>
+          <ol className="hover:bg-sky-600 flex flex-rows-1"><GiTrophyCup style={{fontSize:"20px",marginRight:"1rem"}} />DEV Challenges</ol>
+          <ol className="hover:bg-sky-600 flex flex-rows-1"><PiStarFourBold style={{fontSize:"20px",marginRight:"1rem"}}  />DEV Showcase</ol>
+          <ol className="hover:bg-sky-600 flex flex-rows-1"><FaDev style={{fontSize:"20px",marginRight:"1rem"}} />About</ol>
+          <ol className="hover:bg-sky-600 flex flex-rows-1"><MdWifiCalling style={{fontSize:"20px",marginRight:"1rem"}} />Contact</ol>
+          <ol className="hover:bg-sky-600 flex flex-rows-1"><BiLogoPostgresql style={{fontSize:"20px",marginRight:"1rem"}} />Free Postgres Database</ol>
+          <ol className="hover:bg-sky-600 flex flex-rows-1"><FaBookOpenReader style={{fontSize:"20px",marginRight:"1rem"}} />Guides</ol>
+          <ol className="hover:bg-sky-600 flex flex-rows-1"><GiThink style={{fontSize:"20px",marginRight:"1rem"}} />Software comparisons</ol>
         </div>
-        <div className="pt-5 ml-3">
-          <ol>Other</ol>
-          <ol>Code of Conduct</ol>
-          <ol>Privacy Policy</ol>
-          <ol>Terms of Use</ol>
+        <div className="flex flex-rows-1 pt-3 space-x-2">
+          <div className="hover:bg-sky-600 ml-3 mt-3"><FaXTwitter style={{fontSize:"20px",marginRight:"1rem"}} /></div>
+          <div className="hover:bg-sky-600 ml-3 mt-3"><FaFacebook style={{fontSize:"20px",marginRight:"1rem"}} /></div>
+          <div className="hover:bg-sky-600 ml-3 mt-3"><FaGithub style={{fontSize:"20px",marginRight:"1rem"}} /></div>
+          <div className="hover:bg-sky-600 ml-3 mt-3"><FaInstagramSquare style={{fontSize:"20px",marginRight:"1rem"}} /></div>
+          <div className="hover:bg-sky-600 ml-3 mt-3"><FaTwitch style={{fontSize:"20px",marginRight:"1rem"}} /></div>
+          <div className="hover:bg-sky-600 ml-3 mt-3"><FaMastodon style={{fontSize:"20px",marginRight:"1rem"}} /></div>
+        </div>
+
+
+
+        <p className="text-lg mt-3 ml-4 pb-2 pl-3">Other </p>
+        <div className="pt-2 mt-3 ml-3 pl-3 space-y-2
+        rounded-md border border-red-600">
+          
+          <ol className="hover:bg-sky-600 flex flex-rows-1"><TbThumbUp style={{fontSize:"20px",marginRight:"1rem"}} />Code of Conduct</ol>
+          <ol className="hover:bg-sky-600 flex flex-rows-1"><MdPolicy style={{fontSize:"20px",marginRight:"1rem"}} />Privacy Policy</ol>
+          <ol className="hover:bg-sky-600 flex flex-rows-1"><PiEyesDuotone style={{fontSize:"20px",marginRight:"1rem"}} />Terms of Use</ol>
 
         </div>
         <br />
-        <p className="text-lg ml-4 pb-2 ">Popular tags </p>
+        <p className="text-lg ml-4 pb-2 pl-3">Popular tags </p>
         <div className="scrollbar scrollbar-thumb-sky-700 
-          scrollbar-none h-44 border-solid 
+          scrollbar-none h-56 border-solid 
           rounded-md border border-red-600
-          ml-4 overflow-y-scroll space-y-4">
+          ml-4 pl-3 overflow-y-scroll space-y-4">
           <ol className="hover:bg-sky-600">#webdev</ol>
           <ol className="hover:bg-sky-600">#javascript</ol>
           <ol className="hover:bg-sky-600">#beginners</ol>
@@ -86,7 +124,6 @@ export default function App(){
           <ol className="hover:bg-sky-600">#github</ol>
           <ol className="hover:bg-sky-600">#php</ol>
           <ol className="hover:bg-sky-600">#frontend</ol>
-        
         </div>
         
 
