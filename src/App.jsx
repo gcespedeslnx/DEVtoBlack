@@ -464,10 +464,10 @@ export default function App(){
             <p className="hover:bg-sky-700">
                <a href="#" className="text-white-600 hover:bg-sky-700">
                If you don't write unit tests... it's a skill issue</a>            
-              </p>             
+              </p>            
             </div>
             <br />
-            <div>
+          <div>
             <p className="hover:bg-sky-700">
                <a href="#" className="text-white-600 hover:bg-sky-700">
                10 software Design and Programming Best Practices for Developers </a>            
