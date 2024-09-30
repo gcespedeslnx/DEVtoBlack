@@ -53,7 +53,7 @@ export default function App(){
         <br />
         <p className="text-lg ml-4 pb-2 ">Popular tags </p>
         <div className="scrollbar scrollbar-thumb-sky-700 
-          scrollbar-thin h-44 border-solid 
+          scrollbar-none h-44 border-solid 
           rounded-md border border-red-600
           ml-4 overflow-y-scroll space-y-4">
           <ol className="hover:bg-sky-600">#webdev</ol>
