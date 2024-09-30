@@ -22,6 +22,8 @@ import { FaGithub } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaTwitch } from "react-icons/fa";
 import { FaMastodon } from "react-icons/fa6";
+import { IoDiamondOutline } from "react-icons/io5";
+import { IoEllipsisHorizontal } from "react-icons/io5";
 
 export default function App(){
 
@@ -66,7 +68,7 @@ export default function App(){
           <ol className="hover:bg-sky-600 flex flex-rows-1"><MdWifiCalling style={{fontSize:"20px",marginRight:"1rem"}} />Contact</ol>
           <ol className="hover:bg-sky-600 flex flex-rows-1"><BiLogoPostgresql style={{fontSize:"20px",marginRight:"1rem"}} />Free Postgres Database</ol>
           <ol className="hover:bg-sky-600 flex flex-rows-1"><FaBookOpenReader style={{fontSize:"20px",marginRight:"1rem"}} />Guides</ol>
-          <ol className="hover:bg-sky-600 flex flex-rows-1"><GiThink style={{fontSize:"20px",marginRight:"1rem"}} />Software comparisons</ol>
+          <ol className="hover:bg-sky-600 flex flex-rows-1 pb-3"><GiThink style={{fontSize:"20px",marginRight:"1rem"}} />Software comparisons</ol>
         </div>
         <div className="flex flex-rows-1 pt-3 space-x-2">
           <div className="hover:bg-sky-600 ml-3 mt-3"><FaXTwitter style={{fontSize:"20px",marginRight:"1rem"}} /></div>
@@ -85,7 +87,7 @@ export default function App(){
           
           <ol className="hover:bg-sky-600 flex flex-rows-1"><TbThumbUp style={{fontSize:"20px",marginRight:"1rem"}} />Code of Conduct</ol>
           <ol className="hover:bg-sky-600 flex flex-rows-1"><MdPolicy style={{fontSize:"20px",marginRight:"1rem"}} />Privacy Policy</ol>
-          <ol className="hover:bg-sky-600 flex flex-rows-1"><PiEyesDuotone style={{fontSize:"20px",marginRight:"1rem"}} />Terms of Use</ol>
+          <ol className="hover:bg-sky-600 flex flex-rows-1 pb-3"><PiEyesDuotone style={{fontSize:"20px",marginRight:"1rem"}} />Terms of Use</ol>
 
         </div>
         <br />
@@ -125,6 +127,34 @@ export default function App(){
           <ol className="hover:bg-sky-600">#php</ol>
           <ol className="hover:bg-sky-600">#frontend</ol>
         </div>
+        <br />
+      <div className="">
+      {/* Advertise Neon sponsor */}
+      <div className="rounded-md border border-red-600
+                        ml-3 space-x-1 pt-2
+        ">
+          <div className="flex flex-cols-3 pl-3 pt-3">
+            <div><IoDiamondOutline style={{fontSize:"20px",marginRight:"1rem"}} /></div>
+             <div className="text-sm">DEV Daimonds Sponsors  </div>
+             <div><IoEllipsisHorizontal style={{fontSize:"20px",marginRight:"1rem"}} /></div>           
+          </div>
+          <div className="text-base pt-3 pl-3">
+            <p>Thank you to our </p>
+            <p>Daimond Sponsor Neon</p>
+          </div>
+          <div className="pt-4 pb-4">
+            <img src="/Neon.jpg" alt="" />
+          </div>
+          <div className="pl-3 pb-3">
+            <p>Neon is the official database </p>
+            <p>partner of DEV</p>
+          </div>
+          
+        </div>
+
+      </div>
+      
+      
         
 
 
