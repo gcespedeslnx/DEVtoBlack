@@ -40,21 +40,20 @@ export default function App(){
            
            type="text" size="98" placeholder="Search ..."/>
            </div>
-        <div className="space-x-20">
+      
+      <div className="">
         <button className="ml-14 justify-center rounded-md 
                               border-solid border border-red-600
                               w-40 h-8 w-32 hover:bg-sky-600">Login</button>
 
         </div>
-        <div>
+        <div >
         <button className="ml-1 justify-center rounded-md 
                               border-solid border border-red-600
                               w-40 h-8 w-32 hover:bg-sky-600">Create Account</button>
         </div>
-      </div>
         
-      
-
+      </div>       
     </nav>
     <main >
       { /*Menu de la izquierda*/}
