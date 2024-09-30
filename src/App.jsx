@@ -26,7 +26,7 @@ export default function App(){
                               w-56 hover:bg-sky-600 ">Login</button>
           </div>
         </article>
-        <div className="ml-3 pt-6">
+        <div className="ml-3 mt-6 rounded-md border border-red-600">
           <ol className="hover:bg-sky-600">Home</ol>
           <ol className="hover:bg-sky-600">DEV ++</ol>
           <ol className="hover:bg-sky-600">Podcast</ol>
