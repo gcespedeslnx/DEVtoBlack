@@ -109,7 +109,7 @@ export default function App(){
           <div className="rounded-md border-solid border border-red-600 w-11/12">  
             <div className="pt-2 pb-2">Check this out</div>        
             <div className="grid grid-cols-1 justify-items-center">
-              <img src="../img/dev.jpg" alt="" />             
+              <img src="/dev.jpg" alt="" />             
             </div>
             
             <div className="pl-8 flex flex-col space-y-4">
@@ -128,7 +128,7 @@ export default function App(){
           <div className="rounded-md border-solid border border-red-600 w-11/12">
             
             <div className="grid grid-cols-1 justify-items-center">
-              <img src="../img/Post1.jpg" alt="" />
+              <img src="/Post1.jpg" alt="" />
             </div>
             <div>
                 <div className="pl-8"><p>Jagroop Singh</p>
@@ -146,7 +146,7 @@ export default function App(){
           <div className="rounded-md border-solid border border-red-600 w-11/12">
              <p className="pt-4 pb-4">DEV Community</p>
             <div className="grid grid-cols-1 justify-items-center">
-              <img src="../img/dev1.jpg" alt="" />
+              <img src="/dev1.jpg" alt="" />
             </div>
             <div>
               <div className="grid grid-cols-1 w-11/12 
