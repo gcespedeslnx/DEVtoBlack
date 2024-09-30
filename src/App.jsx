@@ -24,15 +24,43 @@ import { FaTwitch } from "react-icons/fa";
 import { FaMastodon } from "react-icons/fa6";
 import { IoDiamondOutline } from "react-icons/io5";
 import { IoEllipsisHorizontal } from "react-icons/io5";
+import { MdCopyright } from "react-icons/md";
+
+
 
 export default function App(){
 
   return (
+    <>
+    <nav className="">
+      <div className="flex flex-rows-1 space-x-5 pt-2  mt-3 mb-3">
+        <div className="flex flex-rows-1 pl-10"><FaDev style={{fontSize:"35px",marginRight:"1rem"}}/></div>
+        <div className="flex flex-rows-1">
+          <input className="rounded-md pt-1 border-2 border-red-600 h-8"
+           
+           type="text" size="98" placeholder="Search ..."/>
+           </div>
+        <div className="space-x-20">
+        <button className="ml-14 justify-center rounded-md 
+                              border-solid border border-red-600
+                              w-40 h-8 w-32 hover:bg-sky-600">Login</button>
+
+        </div>
+        <div>
+        <button className="ml-1 justify-center rounded-md 
+                              border-solid border border-red-600
+                              w-40 h-8 w-32 hover:bg-sky-600">Create Account</button>
+        </div>
+      </div>
+        
+      
+
+    </nav>
     <main >
       { /*Menu de la izquierda*/}
 
     <div  className="grid grid-cols-12 justify-items-center gap-2">
-      <div div className="rounded-md border-solid justify-center col-span-2 ml-24 w-64">
+      <div div className="rounded-md border-sound justify-center col-span-2 ml-24 w-64">
         <article className="rounded-md ml-3 border border-red-600">
           <p className="ml-3 text-xl">DEV Community is a </p>
           <p className="ml-3 text-xl">Community of </p>
@@ -130,30 +158,68 @@ export default function App(){
         <br />
       <div className="">
       {/* Advertise Neon sponsor */}
-      <div className="rounded-md border border-red-600
+      <div className="rounded-md border-4 border-red-600
                         ml-3 space-x-1 pt-2
         ">
           <div className="flex flex-cols-3 pl-3 pt-3">
             <div><IoDiamondOutline style={{fontSize:"20px",marginRight:"1rem"}} /></div>
              <div className="text-sm">DEV Daimonds Sponsors  </div>
              <div><IoEllipsisHorizontal style={{fontSize:"20px",marginRight:"1rem"}} /></div>           
+            </div>
+            <div className="text-base pt-3 pl-3">
+              <p>Thank you to our </p>
+              <p>Daimond Sponsor Neon</p>
+            </div>
+            <div className="pt-4 pb-4">
+             <img src="/Neon.jpg" alt="" />
+            </div>
+            <div className="pl-3 pb-4">
+              <p>Neon is the official database </p>
+              <p>partner of DEV</p>
+            </div>
+          <div className="flex flex-rows-1 pl-3 pb-3 space-x-2">
+            <p>Happy coding</p>
+            <p><FaHeart style={{fontSize:"20px",marginRight:"1rem"}} /></p>
           </div>
-          <div className="text-base pt-3 pl-3">
-            <p>Thank you to our </p>
-            <p>Daimond Sponsor Neon</p>
-          </div>
-          <div className="pt-4 pb-4">
-            <img src="/Neon.jpg" alt="" />
-          </div>
-          <div className="pl-3 pb-3">
-            <p>Neon is the official database </p>
-            <p>partner of DEV</p>
-          </div>
-          
         </div>
-
       </div>
-      
+      <div>
+
+      <div className="rounded-md border border-red-600
+                        ml-3 mt-4 space-x-1 pt-3
+        ">{/*Inicio del dark mode*/ }
+           <div className="flex flex-rows-1 pl-3 pt-1 space-x-20">
+             <div className="text-sm">DEV Community  </div>
+             <div><IoEllipsisHorizontal style={{fontSize:"20px",marginRight:"1rem"}} /></div>           
+           </div>
+           <div className="pt-3"> 
+            <img src="/darkmode.jpg" alt="" />
+           </div>
+           <div className="pl-3 pb-4 text-2xl">
+            <div>Life is too short</div>
+            <div>browse without</div>
+            <div><a className="underline text-blue-600 hover:text-blue-800 "  href="#">dark mode</a></div>
+           </div>
+      </div>{/*Cierre de dark mode*/}
+      <div className="pl-3 text-sm pt-4">
+        <p><a className="text-blue-600"  href="">DEV Community</a> A constructive and</p>
+        <p>inclusive social nerwork for software</p>
+        <p>developers. With yoour every step of</p>
+        <p>journey</p>
+      </div>
+      <div className="pl-3 text-sm pt-4 pb-4">
+        <p>Built on <a className="text-blue-600" href="">Forem</a>-- the 
+         <a className="text-blue-600" href=""> open source</a></p>
+        <p>software that powers <a className="text-blue-600" href="">DEV</a> and other</p>
+        <p>inclusive communities</p>
+      </div>
+      <div className="pl-3 text-sm pt-4 ">
+        <p>Made with love and <a className="text-blue-600" href="">Rubi On Rails.</a> DEV</p>
+        <p className="flex flex-rows-1">Community  <MdCopyright style={{fontSize:"20px",marginRight:"1rem"}} />2016 - 2024 </p>
+      </div>
+
+    </div>
+
       
         
 
@@ -796,5 +862,6 @@ export default function App(){
 
     </div>
 </main>
+</>
   )
 }
