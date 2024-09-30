@@ -376,32 +376,32 @@ export default function App(){
 
 { /*Menu de la derecha */}
         <div div className="justify-center col-span-2 mr-24 w-80">
-          <div className="grid grid-cols-1 border border-gray-600 mr-3 w-80">
-           <div className="mr-3 border pt-4 pl-4 pb-4">
+          <div className="grid grid-cols-1 border border-red-600 mr-3 w-80">
+           <div className="mr-3 border border-red-600 pt-4 pl-4 pb-4">
                <h1 className="font-mono text-2xl">#discuss</h1>
               <p className="text-xs"> Discussion threads targeting the whole community </p>
           </div>
-             <div className="mr-3 border pt-4 pl-4 pb-4">
+             <div className="mr-3 border border-red-600 pt-4 pl-4 pb-4">
                 <a href="#" className="text-blue-600 hover:text-blue-800">
                  How do you managa tasks when you have a lot todos</a>  
                 <p>4 comments </p>          
               </div>
-             <div className="mr-3 border pt-4 pl-4 pb-4">
+             <div className="mr-3 border border-red-600 pt-4 pl-4 pb-4">
                 <a href="#" className="text-blue-600 hover:text-blue-800">
                 Experimentode Expansao da Consciencia com Intelegencias Atifciais</a>  
                 <p>New </p>                      
               </div>
-             <div className="mr-3 border pt-4 pl-4 pb-4">
+             <div className="mr-3 border border-red-600 pt-4 pl-4 pb-4">
                 <a href="#" className="text-blue-600 hover:text-blue-800">
                 Inevitabot. A future as inevitable as it is unpredictable</a>  
                 <p >New </p>          
               </div>
-              <div className="mr-3 border pt-4 pl-4 pb-4">
+              <div className="mr-3 border border-red-600 pt-4 pl-4 pb-4">
                 <a href="#" className="text-blue-600 hover:text-blue-800">
                   The truth about test coverage </a>  
                 <p>New</p>          
               </div>
-              <div className="mr-3 border pt-4 pl-4 pb-4">
+              <div className="mr-3 border border-red-600 pt-4 pl-4 pb-4">
                 <a href="#" className="text-blue-600 hover:text-blue-800">
                   Best Price Monitoring Tools in 2024</a>  
                 <p>New</p>          
@@ -409,21 +409,21 @@ export default function App(){
           </div>      
           <br />
           <div>    
-              <div className="mr-3 border pt-4 pl-4 pb-4">
+              <div className="mr-3 border border-red-600 pt-4 pl-4 pb-4">
                    <h1 className="font-mono text-2xl">#Watercooler</h1>
                    <p className="text-xs"> Light, and off-topic conversation. </p>
               </div>
-              <div className="mr-3 border pt-4 pl-4 pb-4">
+              <div className="mr-3 border border-red-600 pt-4 pl-4 pb-4">
                 <a href="#" className="text-blue-600 hover:text-blue-800">
                   Bad CSS-Dad jokes (III)</a>  
                 <p>4 comments</p>          
               </div>
-              <div className="mr-3 border pt-4 pl-4 pb-4">
+              <div className="mr-3 border border-red-600 pt-4 pl-4 pb-4">
                 <a href="#" className="text-blue-600 hover:text-blue-800">
                   The NFL's Best Kicker is One Of Us</a>  
                 <p>1 comment</p>          
               </div>
-              <div className="mr-3 border pt-4 pl-4 pb-4">
+              <div className="mr-3 border border-red-600 pt-4 pl-4 pb-4">
                 <a href="#" className="text-blue-600 hover:text-blue-800">
                   Habit Staking: 100 Small Life Changess That Take Five Minutes or Less</a>  
                 <p>New</p>          
